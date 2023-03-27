@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(245, 245, 245);
+  font-family: "Noto Serif Ahom";
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  display: Flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: blueviolet !important;
+}
+.links a:active {
+  font-size: 18px;
+  color: blueviolet;
+}
+
+.wishlist {
+  margin-right: 50px;
+}
+
+.wishlist:hover {
+  text-decoration: underline;
+  color: blueviolet !important;
+}
+
+.wishlist:active {
+  font-size: 18px;
+  color: blueviolet;
+}
+
+.home {
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    display: block;
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .home {
+    padding: 1px;
+  }
+  .wishlist {
+    margin-top: 30px;
+  }
+
+  .links {
+    margin-top: 30px;
+  }
+}

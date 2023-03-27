@@ -1,0 +1,14 @@
+@media only screen and (max-width: 500px) {
+  .slideStyle {
+    width: 100vw !important ;
+    margin-top: 30px !important;
+    height: 45vh !important;
+  }
+
+  .rightArrow {
+    left: 120% !important;
+  }
+  .leftArrow {
+    left: 115% !important;
+  }
+}

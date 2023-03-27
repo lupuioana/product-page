@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 490px;
+  width: 360px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin: 5px;
+}
+
+.product:hover {
+  transform: scale(1.1) !important;
+}
+
+#product_img {
+  height: 380px;
+  width: 300px;
+  padding: 80px;
+}
+
+.product h1,
+h2,
+button {
+  margin: 2px;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  left: 100px;
+}
+
+.product h1 {
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 1px;
+}
+
+.product h2 {
+  font-family: "Eb Garamond";
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.product button {
+  background-color: transparent;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+  border-radius: 0px;
+  font-family: "Playfair Display";
+  border: 1px solid black;
+}
+
+.product button:hover {
+  background-color: white;
+  color: rgb(41, 44, 47);
+}
+
+.product button:active {
+  background-color: rgb(41, 44, 47);
+  color: white;
+}

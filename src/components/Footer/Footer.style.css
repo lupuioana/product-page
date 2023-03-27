@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  width: 100vw;
+  background-color: rgb(41, 44, 47);
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "EB Garamond ";
+  z-index: 1;
+}
+.socialMedia img {
+  width: 15px;
+  margin-right: 30px;
+}
+
+#home,
+#products {
+  color: white !important;
+  margin-right: 10px;
+}
+
+#home {
+  margin-left: 85px;
+}
+
+.links_footer h3 {
+  color: rgb(103, 106, 110);
+  font-size: 15px;
+  margin-left: 85px;
+}
+
+#github {
+  margin-right: 85px;
+}
+
+.socialMedia img:hover {
+  transform: rotateY(360deg);
+  transition: 0.8s ease-out;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+  }
+
+  .links_footer h3 {
+    margin-left: 10px;
+  }
+
+  #home,
+  #products {
+    margin-left: 10px;
+  }
+
+  .socialMedia img {
+    width: 15px;
+    margin: 5px;
+  }
+  #facebook {
+    margin-left: 80px;
+  }
+}

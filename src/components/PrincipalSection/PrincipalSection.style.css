@@ -1,0 +1,60 @@
+.sectionContainer {
+  width: 95vw;
+  max-height: 79vh;
+  margin-top: 7vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sectionInfo {
+  width: 100%;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  z-index: 1;
+}
+
+.sectionInfo p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.sectionInfo button {
+  font-size: 16px;
+  background-color: transparent;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.sectionInfo button:hover {
+  background-color: black;
+  color: white;
+}
+.sectionInfo button:active {
+  background-color: transparent;
+  color: black;
+}
+@media only screen and (max-width: 500px) {
+  .sectionContainer {
+    width: 80vw;
+    margin: 0;
+    height: 55vh;
+    box-shadow: none;
+  }
+
+  .sectionInfo {
+    top: 55%;
+    margin: auto;
+    font-size: 10px;
+    text-align: center;
+  }
+  .sectionInfo p {
+    font-size: 10px;
+  }
+  .sectionInfo button {
+    display: none;
+  }
+}

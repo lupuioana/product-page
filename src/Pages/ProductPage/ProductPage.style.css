@@ -1,0 +1,121 @@
+.productsStyle {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 80vw;
+  margin-left: 25vw;
+  margin-top: 50px;
+}
+.categoriesStyle {
+  width: 20vw;
+  height: 80vh;
+  position: fixed;
+  z-index: 1;
+  left: 5px;
+}
+
+.categoriesStyle h1 {
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 17px;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.categoriesStyle h2 {
+  font-family: "ED Garamond";
+  font-weight: lighter;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(60, 60, 60);
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.categoriesStyle h2:hover {
+  text-decoration: underline;
+}
+
+.productsSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchIcon {
+  width: 300px;
+  height: 25px;
+  display: flex;
+  margin-left: 26vw;
+  margin-top: 70px;
+  position: relative;
+}
+
+.searchIcon input {
+  width: 230px;
+  text-align: center;
+}
+
+.searchIcon img {
+  width: 20px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+}
+
+@media only screen and (max-width: 500px) {
+  .categoriesStyle {
+    position: static;
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .productsStyle {
+    margin: 0;
+  }
+  .categoriesStyle h1 {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .categoriesStyle h2 {
+    padding: 0;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .productPageStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .productsSection {
+    align-items: center;
+  }
+
+  .searchIcon {
+    margin-top: -230px;
+    margin-bottom: 150px;
+    margin-left: 20vw;
+  }
+  .productsStyle {
+    margin-top: 50px;
+  }
+
+  .deleteButton {
+    margin: auto;
+    width: 100px;
+  }
+  Button {
+    margin-left: 0 !important;
+  }
+}
