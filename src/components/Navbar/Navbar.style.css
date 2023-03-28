@@ -54,19 +54,23 @@ a {
 @media only screen and (max-width: 500px) {
   .logo {
     display: block;
-    margin-top: -25px;
+    margin-top: 5px;
     margin-right: auto;
-    margin-left: 25px;
+    margin-left: auto;
   }
 
   .home {
     padding: 1px;
   }
   .wishlist {
-    margin-top: 30px;
+    position: absolute;
+    top: 6vh;
+    right: 15px;
   }
 
   .links {
-    margin-top: 30px;
+    position: absolute;
+    top: 6vh;
+    left: 15px;
   }
 }
