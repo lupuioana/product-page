@@ -43,18 +43,23 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 100vw;
     margin-top: 5%;
     height: 55vh;
     box-shadow: none;
+    margin-left: 0;
   }
 
   .sectionInfo {
     position: static;
     margin: auto;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     margin-top: 2s0px;
+  }
+
+  .sectionInfo h1 {
+    margin-top: 15px;
   }
   .sectionInfo p {
     font-size: 10px;

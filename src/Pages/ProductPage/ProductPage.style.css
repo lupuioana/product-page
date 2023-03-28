@@ -77,6 +77,7 @@
 
   .productsStyle {
     margin: 0;
+    width: 100vw;
   }
   .categoriesStyle h1 {
     font-size: 15px;
@@ -117,5 +118,9 @@
   }
   Button {
     margin-left: 0 !important;
+  }
+
+  .productsSection {
+    width: 100%;
   }
 }

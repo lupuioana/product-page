@@ -6,7 +6,7 @@ function CategoriesItem({ name, image }) {
     height: "100%",
     position: "relative",
     color: "black",
-    marginLeft: "10px",
+    padding: "10px;",
   };
   const imageStyle = {
     width: "350px",
