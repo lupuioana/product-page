@@ -6,6 +6,7 @@ import ProductPage from "./Pages/ProductPage/ProductPage";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import "./index.css";
 
 function App() {
   return (

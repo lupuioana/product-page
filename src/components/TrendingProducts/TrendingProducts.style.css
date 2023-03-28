@@ -52,8 +52,4 @@
   .trendDescription h1:before {
     display: none;
   }
-
-  .trendingProductsList {
-    align-items: center;
-  }
 }

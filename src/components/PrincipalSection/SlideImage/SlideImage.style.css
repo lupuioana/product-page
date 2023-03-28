@@ -6,9 +6,11 @@
   }
 
   .rightArrow {
-    left: 120% !important;
+    left: 90% !important;
+    top: 80% !important;
   }
   .leftArrow {
-    left: 115% !important;
+    left: 85% !important;
+    top: 80% !important;
   }
 }
