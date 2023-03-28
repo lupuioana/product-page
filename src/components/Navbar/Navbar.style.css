@@ -53,10 +53,13 @@ a {
 
 @media only screen and (max-width: 500px) {
   .logo {
-    display: block;
+    position: absolute;
     margin-top: -25px;
     margin-right: auto;
     margin-left: auto;
+    left: 0;
+    right: 0;
+    width: 100px;
   }
 
   .home {
@@ -65,7 +68,7 @@ a {
 
   .links,
   .wishlist {
-    margin-top: 50px;
+    margin-top: 45px;
   }
 
   .navbar {
