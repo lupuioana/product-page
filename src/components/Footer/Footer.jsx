@@ -3,18 +3,19 @@ import Facebook from "./Facebook.png";
 import Github from "./Github.png";
 import Linkedin from "./Linkedin.png";
 import Twitter from "./Twitter.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
       <div className="footer">
         <div className="links_footer">
-          <a id="home" href="#">
+          <Link id="home" to="/">
             Home
-          </a>
-          <a id="products" href="#">
+          </Link>
+          <Link id="products" to="/products">
             Products
-          </a>
+          </Link>
           <h3>Outstock © 2015</h3>
         </div>
         <div className="socialMedia">
